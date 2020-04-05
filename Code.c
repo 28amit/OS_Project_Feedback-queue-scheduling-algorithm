@@ -104,7 +104,6 @@ for(i=0;i<r;i++)
             Q3[i].CT=Q3[i].BT+time-tq1-tq2;
         else
             Q3[i].CT=Q3[i-1].CT+Q3[i].BT;
-
 }
 
 for(i=0;i<r;i++)
